@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#contact {
+  font-family: 'Montserrat';
+  color: #333;
+}
+
+
+h2 {
+  @apply text-2xl font-bold;
+}
+
+h3 {
+  @apply text-xl font-semibold;
+}
+
+.map-container {
+  margin-top: 60px;
+  width: 50% 
+}
+
+.section-spacing {
+  margin-bottom: 20px; 
+}
+html {
+  scroll-behavior: smooth;
+}
+
